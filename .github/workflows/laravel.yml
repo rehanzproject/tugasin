@@ -26,6 +26,11 @@ jobs:
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
 
+    - name: Ensure cache directory exists and is writable
+      run: |
+        mkdir -p bootstrap/cache
+        chmod -R 777 bootstrap/cache
+
     - name: Generate key
       run: php artisan key:generate
 
