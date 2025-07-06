@@ -96,7 +96,7 @@
 
     <div class="login-container">
         <!-- Logo -->
-        <img src="{{ asset('images/your-logo.png') }}" alt="Logo"> <!-- Ganti 'your-logo.png' dengan nama file Anda -->
+        <img src="{{ asset('images/logo-tugasin.png') }}" alt="Logo"> <!-- Ganti 'your-logo.png' dengan nama file Anda -->
 
         <h2>Log in to Tugasin</h2>
         <p>Welcome back! Please enter your email and password to continue.</p>

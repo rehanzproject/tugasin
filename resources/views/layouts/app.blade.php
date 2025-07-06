@@ -127,7 +127,7 @@
                     <div class="px-4 py-6">
                         <!-- Logo -->
                         <a href="{{ route('tasks.dashboard') }}">
-                            <img src="{{ asset('images/your-logo.png') }}" alt="Your Logo" class="block h-20 w-20">
+                            <img src="{{ asset('images/logo-tugasin.png') }}" alt="Your Logo" class="block h-20 w-20">
                         </a>
                     </div>
                     <hr class="garis-abru">
