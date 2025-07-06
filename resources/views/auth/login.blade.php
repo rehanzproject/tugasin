@@ -98,7 +98,7 @@
         <!-- Logo -->
         <img src="{{ asset('images/your-logo.png') }}" alt="Logo"> <!-- Ganti 'your-logo.png' dengan nama file Anda -->
 
-        <h2>Log in to TaskFlow</h2>
+        <h2>Log in to Tugasin</h2>
         <p>Welcome back! Please enter your email and password to continue.</p>
         <form method="POST" action="{{ route('login') }}">
             @csrf

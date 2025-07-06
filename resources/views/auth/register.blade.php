@@ -98,7 +98,7 @@
         <!-- Logo -->
         <img src="{{ asset('images/your-logo.png') }}" alt="Logo"> <!-- Ganti 'your-logo.png' dengan nama file logo Anda -->
 
-        <h2>Register to TaskFlow</h2>
+        <h2>Register to Tugasin</h2>
         <p>Create an account to get started!</p>
         <form method="POST" action="{{ route('register') }}">
             @csrf
